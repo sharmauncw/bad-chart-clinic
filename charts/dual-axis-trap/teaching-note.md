@@ -1,0 +1,3 @@
+# Teaching note: the dual-axis trap
+
+Two axes mean two free choices of scale — and whoever chooses the scales chooses the story. Here the right axis is inverted, so two gently trending lines are forced to cross like swords, implying that rising applications *caused* falling admit rates in some dramatic showdown. Dual axes aren't always wrong, but they always deserve suspicion: ask whether the crossing point would survive a different pair of scale choices (it wouldn't). The honest fix is to index both series to 100 in the base year and plot them on one axis. Indexing keeps the real relationship — applications up ~20%, admit rate down ~23% — without letting axis gymnastics invent drama.
