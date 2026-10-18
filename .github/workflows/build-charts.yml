@@ -1,0 +1,35 @@
+name: Build chart images
+
+on:
+  push:
+    paths:
+      - 'charts/**/*.py'
+      - '.github/workflows/build-charts.yml'
+  workflow_dispatch:
+
+permissions:
+  contents: write
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with:
+          python-version: '3.12'
+      - name: Install dependencies
+        run: pip install matplotlib numpy
+      - name: Render all charts
+        run: |
+          for d in charts/*/; do
+            python "$d/bad.py"
+            python "$d/fixed.py"
+          done
+      - name: Commit generated images
+        run: |
+          git config user.name "github-actions[bot]"
+          git config user.email "github-actions[bot]@users.noreply.github.com"
+          git add charts/
+          git diff --cached --quiet || git commit -m "Regenerate chart images"
+          git push
