@@ -1,0 +1,3 @@
+# Teaching note: the rainbow 3D pie
+
+Pie charts are already the weakest common chart — humans judge angles and areas poorly — and every decoration here makes it worse: the fake 3D base inflates whichever wedge sits at the front, the explosion pulls the biggest slice toward the viewer, and the rainbow palette assigns meaning to color where there is none. The result answers "which is biggest?" with theater instead of evidence. The fix swaps the pie for sorted horizontal bars in a single color, because length against a shared baseline is the comparison our eyes actually get right. Rule of thumb: if you need 3D, shadows, or a rainbow to make a chart interesting, the data wasn't the interesting part.
