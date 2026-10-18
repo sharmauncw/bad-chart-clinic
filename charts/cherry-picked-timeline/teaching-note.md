@@ -1,0 +1,3 @@
+# Teaching note: the cherry-picked timeline
+
+No axis was truncated and no scale was inverted — this chart lies by *omission*. Showing only 2020-2023 turns a recovery from an anomalous dip into a story of spectacular improvement, because the reader never sees the decade of flat 58-60% that puts the "surge" in context. Time-window choice is one of the quietest ways to mislead, and it's everywhere in presentations: always ask "what happened just before this chart starts?" The fix shows the whole series and shades the cherry-picked window instead of hiding the crop. A trend is only a trend if it survives seeing the full timeline.
