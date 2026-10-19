@@ -24,10 +24,10 @@ ax.plot(years, headcount, color="#0f766e", linewidth=2.5, marker="o",
         markersize=4)
 ax.set_ylim(0, max(headcount) * 1.1)  # <-- THE FIX: full axis from zero
 ax.set_xlim(2016, 2026)
-ax.set_ylabel("Total headcount")
+ax.set_ylabel("Total Headcount")
 ax.set_title("Total Headcount, 2016-2026 (Synthetic Data)", fontsize=13)
 ax.annotate(f"+{pct_change:.1f}% over the decade",
-            xy=(2026, 10600), xytext=(2021.5, 12500),
+            xy=(2026, 10600), xytext=(2021.5, 11000),
             arrowprops=dict(arrowstyle="->", color="black"),
             fontsize=10, ha="center",
             bbox=dict(boxstyle="round,pad=0.3", fc="white", ec="gray"))
