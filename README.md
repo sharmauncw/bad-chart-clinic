@@ -1,6 +1,23 @@
-# Bad Chart Clinic
+<div align="center">
 
-A gallery of deliberately-bad charts — each paired with a fixed, honest version and a one-paragraph teaching note.
+# 🏥 Bad Chart Clinic
+
+![Python](https://img.shields.io/badge/Python-3776AB?style=for-the-badge&logo=python&logoColor=white)
+![matplotlib](https://img.shields.io/badge/matplotlib-11557c?style=for-the-badge&logo=python&logoColor=white)
+![Data Viz](https://img.shields.io/badge/Data_Viz-FF6B6B?style=for-the-badge&logo=chartdotjs&logoColor=white)
+![Teaching](https://img.shields.io/badge/Teaching-4ECDC4?style=for-the-badge)
+![Synthetic Data](https://img.shields.io/badge/Synthetic_Data-9B59B6?style=for-the-badge)
+
+**A gallery of deliberately-bad charts — each paired with a fixed, honest version and a one-paragraph teaching note.**
+
+</div>
+
+## 👀 Before & after
+
+| ❌ The sin | ✅ The fix |
+|---|---|
+| ![bad chart](charts/exaggerated-area/bad.png) | ![fixed chart](charts/exaggerated-area/fixed.png) |
+| *Area chart with axis starting at 10,000 — flat growth looks explosive* | *Full axis from 0; report the actual +3.9% change* |
 
 ## The story
 
